@@ -1,0 +1,30 @@
+
+/* whole tag attributes */
+body{
+    background-color: black;
+}
+p{
+    font-family: "lucida console", arial;
+    font-weight: bold;
+    
+    
+}
+/* id attributes */
+#p1{
+    color: red;
+    font-size: 10px;
+}
+#p2{
+    color: orange;
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+#p4{
+    color: green;
+}
+
+/* class attributes */
+.odd{
+    color: red;
+}

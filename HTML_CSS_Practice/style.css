@@ -1,7 +1,8 @@
 
 /* whole tag attributes */
 body{
-    background-color: black;
+    background-color: cornflowerblue;
+    margin: 4px;
 }
 p{
     font-family: "lucida console", arial;
@@ -13,18 +14,87 @@ p{
 #p1{
     color: red;
     font-size: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: green;
+    border-radius: 10px;
+    display: flow-root;
+
 }
 #p2{
     color: orange;
     font-size: 1.4em;
     font-style: italic;
-}
+    border-bottom: 3px solid indigo;
+    border-top: 3px dashed yellow;
+    border-left: 3px solid forestgreen;
+    border-right: 3px solid pink;
+    
 
+}
+#p3{
+    color: yellow;
+    border-style: dotted;
+}
 #p4{
     color: green;
+    border-style: double;
+
+}
+#p5{
+    color: blue;
+    border-style: groove;
+}
+#p6{
+    color: purple;
+    border-style: ridge;
+}
+#p7{
+    color: indigo;
+    border-style: inset;
+}
+#p8{
+    color: cornflowerblue;
+    border-style: outset;  
 }
 
 /* class attributes */
 .odd{
     color: red;
 }
+h2{
+    color: white;
+    text-shadow: 3px 5px 5px indigo, 3px -3px 5px red;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 217, 217);
+    box-shadow: 3px 3px 5px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    height: 250px;
+    width: 250px;
+
+}
+#boxOne{
+    background-color: red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+#boxTwo{
+    background-color: rgb(35, 214, 145);
+    margin: auto;
+}
+#img1{
+    float: left;
+    margin-right: 20px;
+}
+#img2{
+    float: right;
+    margin-left: 20px;
+}
+

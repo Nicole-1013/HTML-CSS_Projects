@@ -2,7 +2,7 @@
 /* whole tag attributes */
 body{
     background-color: cornflowerblue;
-    margin: 4px;
+    
 }
 p{
     font-family: "lucida console", arial;
@@ -96,5 +96,12 @@ h2{
 #img2{
     float: right;
     margin-left: 20px;
+}
+#overflowExample{
+    border: 2px solid;
+    height: 75px;
+    width: 300px;
+    overflow: auto;
+    display: inline-block;
 }
 

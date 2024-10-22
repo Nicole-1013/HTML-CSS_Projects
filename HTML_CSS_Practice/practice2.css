@@ -24,3 +24,11 @@
 #container > p{
     background-color: yellow;
 }
+
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: grey;
+    
+}
